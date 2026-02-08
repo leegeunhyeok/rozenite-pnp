@@ -1,0 +1,23 @@
+diff --git a/src/node-haste/DependencyGraph.js b/src/node-haste/DependencyGraph.js
+index bd42485a8a6647757c0f5b2f2c4a5e659125fcdd..d976e6dd1fadc52ba3bd80dd100520b01c6c890a 100644
+--- a/src/node-haste/DependencyGraph.js
++++ b/src/node-haste/DependencyGraph.js
+@@ -188,12 +188,12 @@ class DependencyGraph extends _events.default {
+   async getOrComputeSha1(mixedPath) {
+     const result = await this._fileSystem.getOrComputeSha1(mixedPath);
+     if (!result || !result.sha1) {
+-      throw new Error(`Failed to get the SHA-1 for: ${mixedPath}.
+-      Potential causes:
+-        1) The file is not watched. Ensure it is under the configured \`projectRoot\` or \`watchFolders\`.
+-        2) Check \`blockList\` in your metro.config.js and make sure it isn't excluding the file path.
+-        3) The file may have been deleted since it was resolved - try refreshing your app.
+-        4) Otherwise, this is a bug in Metro or the configured resolver - please report it.`);
++      // WORKAROUND: Avoid `node-haste` compatibility issues.
++      // This only affects the watcher (file detection) and does not impact the build output.
++      const fs = require('fs');
++      const crypto = require('crypto');
++      const sha1= crypto.createHash('sha1').update(fs.readFileSync(mixedPath)).digest('hex');
++      return { sha1 };
+     }
+     return result;
+   }
