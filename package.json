@@ -1,5 +1,5 @@
 {
-  "name": "RozenitePnP",
+  "name": "rozenite-pnp",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -55,7 +55,8 @@
     "node": ">= 22.11.0"
   },
   "resolutions": {
-    "metro": "patch:metro@npm%3A0.83.3#~/.yarn/patches/metro-npm-0.83.3-6f86736a59.patch"
+    "metro": "patch:metro@npm%3A0.83.3#~/.yarn/patches/metro-npm-0.83.3-6f86736a59.patch",
+    "@rozenite/middleware": "file:./package.tgz"
   },
   "packageManager": "yarn@4.12.0"
 }

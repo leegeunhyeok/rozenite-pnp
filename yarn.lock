@@ -2551,16 +2551,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rozenite/middleware@npm:1.2.0":
+"@rozenite/middleware@file:./package.tgz::locator=rozenite-pnp%40workspace%3A.":
   version: 1.2.0
-  resolution: "@rozenite/middleware@npm:1.2.0"
+  resolution: "@rozenite/middleware@file:./package.tgz#./package.tgz::hash=7227b0&locator=rozenite-pnp%40workspace%3A."
   dependencies:
     "@rozenite/runtime": "npm:1.2.0"
     "@rozenite/tools": "npm:1.2.0"
     express: "npm:^5.1.0"
     semver: "npm:^7.7.2"
     tslib: "npm:^2.3.0"
-  checksum: 10c0/f5649dcb1876d817d9aada6f563df759c28b2d73ec83fb3b6a129899f514b8a00077226655e79c6f449915ae9e74ce626ef49be4c329d8138f6aaf3828c8a0b2
+  checksum: 10c0/0c45d2f35345da21c9f1a6f895a5f41fde21c4b81b62f1c5d14edbf2272a19279c285127e2cd13560b11d50a3386bdf4696d7bed8018f0cd5a8dad9b53126a70
   languageName: node
   linkType: hard
 
@@ -2963,46 +2963,6 @@ __metadata:
   checksum: 10c0/9cf63f7001f31ada248aefe0d289e8769d82d9eeb12845aef863faf44620cbe620897625af4e160ab1c2a684d88247a0dbaead0d9a9447a5807feb4a4fd47016
   languageName: node
   linkType: hard
-
-"RozenitePnP@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "RozenitePnP@workspace:."
-  dependencies:
-    "@babel/core": "npm:^7.25.2"
-    "@babel/preset-env": "npm:^7.25.3"
-    "@babel/runtime": "npm:^7.25.0"
-    "@react-native-community/cli": "npm:20.1.0"
-    "@react-native-community/cli-platform-android": "npm:20.1.0"
-    "@react-native-community/cli-platform-ios": "npm:20.1.0"
-    "@react-native/babel-preset": "npm:0.84.0-rc.4"
-    "@react-native/eslint-config": "npm:0.84.0-rc.4"
-    "@react-native/metro-config": "npm:0.84.0-rc.4"
-    "@react-native/new-app-screen": "npm:0.84.0-rc.4"
-    "@react-native/typescript-config": "npm:0.84.0-rc.4"
-    "@rozenite/metro": "npm:^1.2.0"
-    "@rozenite/tanstack-query-plugin": "npm:^1.2.0"
-    "@tanstack/react-query": "npm:^5.90.20"
-    "@types/jest": "npm:^29.5.13"
-    "@types/react": "npm:^19.2.0"
-    "@types/react-test-renderer": "npm:^19.1.0"
-    eslint: "npm:^8.19.0"
-    jest: "npm:^29.6.3"
-    oxc-resolver: "npm:^11.17.0"
-    prettier: "npm:2.8.8"
-    react: "npm:19.2.3"
-    react-native: "npm:0.84.0-rc.4"
-    react-native-safe-area-context: "npm:^5.5.2"
-    react-test-renderer: "npm:19.2.3"
-    typescript: "npm:^5.8.3"
-  dependenciesMeta:
-    "@react-native-community/cli":
-      unplugged: true
-    "@react-native/debugger-shell":
-      unplugged: true
-    react-native:
-      unplugged: true
-  languageName: unknown
-  linkType: soft
 
 "abbrev@npm:^4.0.0":
   version: 4.0.0
@@ -8309,6 +8269,46 @@ __metadata:
   checksum: 10c0/3279de7450c8eae2f6e095e9edacbdeec0abb5cb7249c6e719faa0db2dba43574b4fff5892d9220631c9abaff52dd3cad648cfea2aaace845e1a071915ac8867
   languageName: node
   linkType: hard
+
+"rozenite-pnp@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "rozenite-pnp@workspace:."
+  dependencies:
+    "@babel/core": "npm:^7.25.2"
+    "@babel/preset-env": "npm:^7.25.3"
+    "@babel/runtime": "npm:^7.25.0"
+    "@react-native-community/cli": "npm:20.1.0"
+    "@react-native-community/cli-platform-android": "npm:20.1.0"
+    "@react-native-community/cli-platform-ios": "npm:20.1.0"
+    "@react-native/babel-preset": "npm:0.84.0-rc.4"
+    "@react-native/eslint-config": "npm:0.84.0-rc.4"
+    "@react-native/metro-config": "npm:0.84.0-rc.4"
+    "@react-native/new-app-screen": "npm:0.84.0-rc.4"
+    "@react-native/typescript-config": "npm:0.84.0-rc.4"
+    "@rozenite/metro": "npm:^1.2.0"
+    "@rozenite/tanstack-query-plugin": "npm:^1.2.0"
+    "@tanstack/react-query": "npm:^5.90.20"
+    "@types/jest": "npm:^29.5.13"
+    "@types/react": "npm:^19.2.0"
+    "@types/react-test-renderer": "npm:^19.1.0"
+    eslint: "npm:^8.19.0"
+    jest: "npm:^29.6.3"
+    oxc-resolver: "npm:^11.17.0"
+    prettier: "npm:2.8.8"
+    react: "npm:19.2.3"
+    react-native: "npm:0.84.0-rc.4"
+    react-native-safe-area-context: "npm:^5.5.2"
+    react-test-renderer: "npm:19.2.3"
+    typescript: "npm:^5.8.3"
+  dependenciesMeta:
+    "@react-native-community/cli":
+      unplugged: true
+    "@react-native/debugger-shell":
+      unplugged: true
+    react-native:
+      unplugged: true
+  languageName: unknown
+  linkType: soft
 
 "run-parallel@npm:^1.1.9":
   version: 1.2.0
