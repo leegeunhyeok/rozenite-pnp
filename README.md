@@ -2,6 +2,12 @@
 
 A demo project for integrating [Rozenite](https://rozenite.dev) in a Yarn PnP environment.
 
+## Preview
+
+<img alt="preview 1" src="./preview-1.png">
+
+<img alt="preview 2" src="./preview-2.png">
+
 ## Setup
 
 ### Requirements
