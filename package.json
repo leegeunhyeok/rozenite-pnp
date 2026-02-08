@@ -47,9 +47,6 @@
     "@react-native/debugger-shell": {
       "unplugged": true
     },
-    "@rozenite/middleware": {
-      "unplugged": true
-    },
     "react-native": {
       "unplugged": true
     }

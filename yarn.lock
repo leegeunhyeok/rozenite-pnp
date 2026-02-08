@@ -8305,8 +8305,6 @@ __metadata:
       unplugged: true
     "@react-native/debugger-shell":
       unplugged: true
-    "@rozenite/middleware":
-      unplugged: true
     react-native:
       unplugged: true
   languageName: unknown
