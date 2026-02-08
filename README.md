@@ -8,6 +8,18 @@ A demo project for integrating [Rozenite](https://rozenite.dev) in a Yarn PnP en
 
 <img alt="preview 2" src="./preview-2.png">
 
+## Context
+
+Yarn PnP is not typically used in the React Native ecosystem.
+However, it can be used when a custom development environment has been set up.
+
+This example provides a demo for integrating Rozenite in a project with Yarn PnP enabled.
+
+For the demo:
+
+- A custom resolver based on [oxc-resolver](https://www.npmjs.com/package/oxc-resolver) has been configured to the Metro configuration
+- Metro has been patched to temporarily work around PnP compatibility issues (see `.yarn/patches`; this does not affect Rozenite integration)
+
 ## Setup
 
 ### Requirements
