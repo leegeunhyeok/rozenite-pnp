@@ -2553,14 +2553,14 @@ __metadata:
 
 "@rozenite/middleware@file:./package.tgz::locator=rozenite-pnp%40workspace%3A.":
   version: 1.2.0
-  resolution: "@rozenite/middleware@file:./package.tgz#./package.tgz::hash=7227b0&locator=rozenite-pnp%40workspace%3A."
+  resolution: "@rozenite/middleware@file:./package.tgz#./package.tgz::hash=260c2c&locator=rozenite-pnp%40workspace%3A."
   dependencies:
     "@rozenite/runtime": "npm:1.2.0"
     "@rozenite/tools": "npm:1.2.0"
     express: "npm:^5.1.0"
     semver: "npm:^7.7.2"
     tslib: "npm:^2.3.0"
-  checksum: 10c0/0c45d2f35345da21c9f1a6f895a5f41fde21c4b81b62f1c5d14edbf2272a19279c285127e2cd13560b11d50a3386bdf4696d7bed8018f0cd5a8dad9b53126a70
+  checksum: 10c0/8b259cbd4dc8a6edd282b76cf2044b63ed3dc1ee9af26912000ca61f2819780fdf3ca7615157fb9e78eb0856ae40a91d2c4d4996538d3570d7eff7d677bc452b
   languageName: node
   linkType: hard
 
@@ -8304,6 +8304,8 @@ __metadata:
     "@react-native-community/cli":
       unplugged: true
     "@react-native/debugger-shell":
+      unplugged: true
+    "@rozenite/middleware":
       unplugged: true
     react-native:
       unplugged: true
