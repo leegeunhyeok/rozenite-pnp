@@ -1,3 +1,4 @@
+const { withRozenite } = require('@rozenite/metro');
 const path = require('path');
 
 const { getDefaultConfig, mergeConfig } = require('@react-native/metro-config');
@@ -84,4 +85,10 @@ const config = {
   resetCache: true,
 };
 
-module.exports = mergeConfig(getDefaultConfig(__dirname), config);
+const baseConfig = mergeConfig(getDefaultConfig(__dirname), config);
+
+module.exports = withRozenite(baseConfig, {
+  enabled: true,
+  projectType: 'react-native-cli',
+  logLevel: 'debug',
+});
