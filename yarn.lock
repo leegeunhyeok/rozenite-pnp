@@ -2552,15 +2552,15 @@ __metadata:
   linkType: hard
 
 "@rozenite/middleware@file:./package.tgz::locator=rozenite-pnp%40workspace%3A.":
-  version: 1.2.0
-  resolution: "@rozenite/middleware@file:./package.tgz#./package.tgz::hash=260c2c&locator=rozenite-pnp%40workspace%3A."
+  version: 1.4.0
+  resolution: "@rozenite/middleware@file:./package.tgz#./package.tgz::hash=d13660&locator=rozenite-pnp%40workspace%3A."
   dependencies:
-    "@rozenite/runtime": "npm:1.2.0"
-    "@rozenite/tools": "npm:1.2.0"
+    "@rozenite/runtime": "npm:1.4.0"
+    "@rozenite/tools": "npm:1.4.0"
     express: "npm:^5.1.0"
     semver: "npm:^7.7.2"
     tslib: "npm:^2.3.0"
-  checksum: 10c0/8b259cbd4dc8a6edd282b76cf2044b63ed3dc1ee9af26912000ca61f2819780fdf3ca7615157fb9e78eb0856ae40a91d2c4d4996538d3570d7eff7d677bc452b
+  checksum: 10c0/8e3a768ab45fd32ec056022119b0eefa18c6e693ae6e4b4626a96b412f38e9e6d94cb00edd3f6e08894a178e15df6ac00460a0777764c9a35382d2996f70722e
   languageName: node
   linkType: hard
 
@@ -2575,12 +2575,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rozenite/runtime@npm:1.2.0":
-  version: 1.2.0
-  resolution: "@rozenite/runtime@npm:1.2.0"
+"@rozenite/runtime@npm:1.4.0":
+  version: 1.4.0
+  resolution: "@rozenite/runtime@npm:1.4.0"
   dependencies:
     tslib: "npm:^2.3.0"
-  checksum: 10c0/f0deb75fbec968fddb2b69d27fdf96d0f2b140646d96324d57ff6ee600daa69d6c1ab77934ec1ef238fdb10f68a6e6bae030c9f63846dcb7c4ff5a054ff66c39
+  checksum: 10c0/3d5b0d462ee2782fce9dc0efda61dc2d406206b2f44c3fb523a06d4ca905df0b613e5e1e5cfeb6269079c6075365b83d70dc6c37082a499485a940e34bb282be
   languageName: node
   linkType: hard
 
@@ -2602,6 +2602,13 @@ __metadata:
   version: 1.2.0
   resolution: "@rozenite/tools@npm:1.2.0"
   checksum: 10c0/9fe62836e2f77e8a647bf5eadda9c0ee63f41e6300e8c56344cbbfde022147a23961ac02fbf60610921f7a7b7668c68896a03c5b2a70b21c17f0a1e31a6da44a
+  languageName: node
+  linkType: hard
+
+"@rozenite/tools@npm:1.4.0":
+  version: 1.4.0
+  resolution: "@rozenite/tools@npm:1.4.0"
+  checksum: 10c0/847b2dc5b2f57a1874289b0cee9f244894b05e10b54f3cb93208317e7dfe32cf293788cdb23a35b8f40d44a9d3603e51145fde0854d6f63b612b36b0a3ec5d3f
   languageName: node
   linkType: hard
 
